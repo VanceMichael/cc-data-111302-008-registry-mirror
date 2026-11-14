@@ -1,0 +1,192 @@
+[
+  {
+    "blob": "blobs/sha512_pGjLfq1ZNUtXXKzJtZuNaj01Ur02ADLmA5UfilrRGMEZT2J0nagSvEYPnG_x8XUr87qZhgZuKjW2KrDKSy_DJA__.tgz",
+    "path": "blobs/sha512_pGjLfq1ZNUtXXKzJtZuNaj01Ur02ADLmA5UfilrRGMEZT2J0nagSvEYPnG_x8XUr87qZhgZuKjW2KrDKSy_DJA__.tgz",
+    "integrity": "sha512-pGjLfq1ZNUtXXKzJtZuNaj01Ur02ADLmA5UfilrRGMEZT2J0nagSvEYPnG/x8XUr87qZhgZuKjW2KrDKSy/DJA==",
+    "tarballUrl": "http://127.0.0.1:42029/archives/app/-/app-1.0.0.tgz",
+    "byteLength": 3072,
+    "checks": [
+      {
+        "algorithm": "sha512",
+        "expected": "pGjLfq1ZNUtXXKzJtZuNaj01Ur02ADLmA5UfilrRGMEZT2J0nagSvEYPnG/x8XUr87qZhgZuKjW2KrDKSy/DJA==",
+        "actual": "pGjLfq1ZNUtXXKzJtZuNaj01Ur02ADLmA5UfilrRGMEZT2J0nagSvEYPnG/x8XUr87qZhgZuKjW2KrDKSy/DJA==",
+        "ok": true
+      },
+      {
+        "algorithm": "sha1",
+        "expected": "48ff74c769f2123b771d172de45cceb6574ad105",
+        "actual": "48ff74c769f2123b771d172de45cceb6574ad105",
+        "ok": true
+      }
+    ],
+    "listing": [
+      {
+        "name": "package/package.json",
+        "size": 301,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      },
+      {
+        "name": "package/README.md",
+        "size": 53,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      }
+    ],
+    "listingError": null
+  },
+  {
+    "blob": "blobs/sha512_iM4TT8EkPfMpp1bYvb4t7_k4QJjSqgTjOfldzTdD1lcvuQWWo2NjDwR9npzBqWqCx0z2nTtkU8QoNq9tR18J_w__.tgz",
+    "path": "blobs/sha512_iM4TT8EkPfMpp1bYvb4t7_k4QJjSqgTjOfldzTdD1lcvuQWWo2NjDwR9npzBqWqCx0z2nTtkU8QoNq9tR18J_w__.tgz",
+    "integrity": "sha512-iM4TT8EkPfMpp1bYvb4t7/k4QJjSqgTjOfldzTdD1lcvuQWWo2NjDwR9npzBqWqCx0z2nTtkU8QoNq9tR18J+w==",
+    "tarballUrl": "http://127.0.0.1:42029/archives/libx/-/libx-1.0.0.tgz",
+    "byteLength": 3072,
+    "checks": [
+      {
+        "algorithm": "sha512",
+        "expected": "iM4TT8EkPfMpp1bYvb4t7/k4QJjSqgTjOfldzTdD1lcvuQWWo2NjDwR9npzBqWqCx0z2nTtkU8QoNq9tR18J+w==",
+        "actual": "iM4TT8EkPfMpp1bYvb4t7/k4QJjSqgTjOfldzTdD1lcvuQWWo2NjDwR9npzBqWqCx0z2nTtkU8QoNq9tR18J+w==",
+        "ok": true
+      },
+      {
+        "algorithm": "sha1",
+        "expected": "377db77a14bd1ea16cd369e7bd8f5d8b677f0c81",
+        "actual": "377db77a14bd1ea16cd369e7bd8f5d8b677f0c81",
+        "ok": true
+      }
+    ],
+    "listing": [
+      {
+        "name": "package/package.json",
+        "size": 65,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      },
+      {
+        "name": "package/README.md",
+        "size": 54,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      }
+    ],
+    "listingError": null
+  },
+  {
+    "blob": "blobs/sha512_tqYe9CRUtF6eiJcSD2yuGT5p65lvmfnDk0snLihJAdoMJSp4iuXdV8VhYa7Cxmfb4exI1UVn0eNdTYPfTISrBw__.tgz",
+    "path": "blobs/sha512_tqYe9CRUtF6eiJcSD2yuGT5p65lvmfnDk0snLihJAdoMJSp4iuXdV8VhYa7Cxmfb4exI1UVn0eNdTYPfTISrBw__.tgz",
+    "integrity": "sha512-tqYe9CRUtF6eiJcSD2yuGT5p65lvmfnDk0snLihJAdoMJSp4iuXdV8VhYa7Cxmfb4exI1UVn0eNdTYPfTISrBw==",
+    "tarballUrl": "http://127.0.0.1:42029/archives/host/-/host-2.0.0.tgz",
+    "byteLength": 3072,
+    "checks": [
+      {
+        "algorithm": "sha512",
+        "expected": "tqYe9CRUtF6eiJcSD2yuGT5p65lvmfnDk0snLihJAdoMJSp4iuXdV8VhYa7Cxmfb4exI1UVn0eNdTYPfTISrBw==",
+        "actual": "tqYe9CRUtF6eiJcSD2yuGT5p65lvmfnDk0snLihJAdoMJSp4iuXdV8VhYa7Cxmfb4exI1UVn0eNdTYPfTISrBw==",
+        "ok": true
+      },
+      {
+        "algorithm": "sha1",
+        "expected": "0abf18aaf229bbc92ffd22bb6322220d9e7b8b9d",
+        "actual": "0abf18aaf229bbc92ffd22bb6322220d9e7b8b9d",
+        "ok": true
+      }
+    ],
+    "listing": [
+      {
+        "name": "package/package.json",
+        "size": 65,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      },
+      {
+        "name": "package/README.md",
+        "size": 54,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      }
+    ],
+    "listingError": null
+  },
+  {
+    "blob": "blobs/sha512_i5_Djv8HiXm0RHO9URjE0z_OBYB3GnuSg94No_Z7S9J96fzQg6HjVvEX76C5WVysMWPzAVIQ37jeX9eJJ4mmyw__.tgz",
+    "path": "blobs/sha512_i5_Djv8HiXm0RHO9URjE0z_OBYB3GnuSg94No_Z7S9J96fzQg6HjVvEX76C5WVysMWPzAVIQ37jeX9eJJ4mmyw__.tgz",
+    "integrity": "sha512-i5/Djv8HiXm0RHO9URjE0z+OBYB3GnuSg94No/Z7S9J96fzQg6HjVvEX76C5WVysMWPzAVIQ37jeX9eJJ4mmyw==",
+    "tarballUrl": "http://127.0.0.1:42029/archives/libx/-/libx-2.0.0.tgz",
+    "byteLength": 3072,
+    "checks": [
+      {
+        "algorithm": "sha512",
+        "expected": "i5/Djv8HiXm0RHO9URjE0z+OBYB3GnuSg94No/Z7S9J96fzQg6HjVvEX76C5WVysMWPzAVIQ37jeX9eJJ4mmyw==",
+        "actual": "i5/Djv8HiXm0RHO9URjE0z+OBYB3GnuSg94No/Z7S9J96fzQg6HjVvEX76C5WVysMWPzAVIQ37jeX9eJJ4mmyw==",
+        "ok": true
+      },
+      {
+        "algorithm": "sha1",
+        "expected": "e9362f41e5ba6475ce1db266e4e0b5b60106f2d3",
+        "actual": "e9362f41e5ba6475ce1db266e4e0b5b60106f2d3",
+        "ok": true
+      }
+    ],
+    "listing": [
+      {
+        "name": "package/package.json",
+        "size": 91,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      },
+      {
+        "name": "package/README.md",
+        "size": 54,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      }
+    ],
+    "listingError": null
+  },
+  {
+    "blob": "blobs/sha512_3FY_0NnAXaxpd1H7QE4yOrniENbNcjIcO8awgDPDK1XTHjxowAYDkOEQNMCBNCsqVGBTlyVqgSr0dQdnuTlq6w__.tgz",
+    "path": "blobs/sha512_3FY_0NnAXaxpd1H7QE4yOrniENbNcjIcO8awgDPDK1XTHjxowAYDkOEQNMCBNCsqVGBTlyVqgSr0dQdnuTlq6w__.tgz",
+    "integrity": "sha512-3FY+0NnAXaxpd1H7QE4yOrniENbNcjIcO8awgDPDK1XTHjxowAYDkOEQNMCBNCsqVGBTlyVqgSr0dQdnuTlq6w==",
+    "tarballUrl": "http://127.0.0.1:42029/archives/gadget/-/gadget-1.0.0.tgz",
+    "byteLength": 3072,
+    "checks": [
+      {
+        "algorithm": "sha512",
+        "expected": "3FY+0NnAXaxpd1H7QE4yOrniENbNcjIcO8awgDPDK1XTHjxowAYDkOEQNMCBNCsqVGBTlyVqgSr0dQdnuTlq6w==",
+        "actual": "3FY+0NnAXaxpd1H7QE4yOrniENbNcjIcO8awgDPDK1XTHjxowAYDkOEQNMCBNCsqVGBTlyVqgSr0dQdnuTlq6w==",
+        "ok": true
+      },
+      {
+        "algorithm": "sha1",
+        "expected": "c875d71b39a41b37363428de2e2018e2e9c94f24",
+        "actual": "c875d71b39a41b37363428de2e2018e2e9c94f24",
+        "ok": true
+      }
+    ],
+    "listing": [
+      {
+        "name": "package/package.json",
+        "size": 117,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      },
+      {
+        "name": "package/README.md",
+        "size": 56,
+        "mode": "0000644",
+        "typeflag": "0",
+        "unsafe": false
+      }
+    ],
+    "listingError": null
+  }
+]

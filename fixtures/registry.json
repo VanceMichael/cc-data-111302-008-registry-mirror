@@ -1,0 +1,130 @@
+{
+  "comment": "本地 npm 风格仓库的初始数据。source.mjs 启动时读取，/control 的运行期改动不会回写本文件。",
+  "packages": {
+    "app": {
+      "dist-tags": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "name": "app",
+          "version": "1.0.0",
+          "dependencies": {
+            "helper": "^1.0.0",
+            "libx": "^1.0.0"
+          },
+          "optionalDependencies": {
+            "win-tool": "1.0.0",
+            "missing-opt": "1.0.0"
+          },
+          "peerDependencies": {
+            "host": "^2.0.0"
+          },
+          "os": ["linux", "win32", "darwin"]
+        },
+        "2.0.0": {
+          "name": "app",
+          "version": "2.0.0",
+          "dependencies": {
+            "helper": "^2.0.0",
+            "libx": "^2.0.0"
+          },
+          "optionalDependencies": {
+            "win-tool": "1.0.0"
+          },
+          "peerDependencies": {
+            "host": "^3.0.0"
+          },
+          "os": ["linux", "win32", "darwin"]
+        }
+      }
+    },
+    "helper": {
+      "dist-tags": {
+        "latest": "2.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "name": "helper",
+          "version": "1.0.0",
+          "dependencies": {
+            "app": "1.0.0",
+            "libx": "^2.0.0"
+          }
+        },
+        "2.0.0": {
+          "name": "helper",
+          "version": "2.0.0",
+          "dependencies": {
+            "app": "^2.0.0"
+          }
+        }
+      }
+    },
+    "libx": {
+      "dist-tags": {
+        "latest": "2.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "name": "libx",
+          "version": "1.0.0",
+          "dependencies": {}
+        },
+        "2.0.0": {
+          "name": "libx",
+          "version": "2.0.0",
+          "dependencies": {
+            "gadget": "^1.0.0"
+          }
+        }
+      }
+    },
+    "gadget": {
+      "dist-tags": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "name": "gadget",
+          "version": "1.0.0",
+          "dependencies": {},
+          "peerDependencies": {
+            "host": "^4.0.0"
+          }
+        }
+      }
+    },
+    "host": {
+      "dist-tags": {
+        "latest": "3.0.0"
+      },
+      "versions": {
+        "2.0.0": {
+          "name": "host",
+          "version": "2.0.0",
+          "dependencies": {}
+        },
+        "3.0.0": {
+          "name": "host",
+          "version": "3.0.0",
+          "dependencies": {}
+        }
+      }
+    },
+    "win-tool": {
+      "dist-tags": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "name": "win-tool",
+          "version": "1.0.0",
+          "dependencies": {},
+          "os": ["win32"],
+          "cpu": ["x64", "arm64"]
+        }
+      }
+    }
+  }
+}

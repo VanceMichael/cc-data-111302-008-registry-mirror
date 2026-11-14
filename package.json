@@ -10,6 +10,9 @@
     "test": "node --test",
     "build": "node scripts/check.mjs",
     "start": "node src/serve.mjs",
-    "demo": "node src/demo.mjs"
+    "demo": "node src/demo.mjs",
+    "demo:offline": "node src/demo-offline.mjs",
+    "collect": "node src/collect.mjs",
+    "query": "node src/query.mjs"
   }
 }

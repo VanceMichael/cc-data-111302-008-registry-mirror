@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-14T15:09:55.475Z",
+  "startedAt": "2026-11-14T15:09:55.429Z",
+  "request": {
+    "name": "app",
+    "range": "^1.0.0",
+    "platform": {
+      "os": "linux",
+      "cpu": "x64"
+    },
+    "registries": [
+      "http://127.0.0.1:42029"
+    ]
+  },
+  "root": {
+    "name": "app",
+    "range": "^1.0.0",
+    "resolvedVersion": "1.0.0",
+    "viaTag": null,
+    "nodeId": "__root__"
+  },
+  "counts": {
+    "nodes": 10,
+    "edges": 14,
+    "distinctBlobs": 6,
+    "byStatus": {
+      "root-resolved": 1,
+      "available": 6,
+      "optional-platform-excluded": 1,
+      "optional-missing": 1,
+      "peer-unmet": 1
+    },
+    "conflicts": 1,
+    "peerUnsatisfied": 1
+  },
+  "conflicts": [
+    {
+      "name": "libx",
+      "versions": [
+        "1.0.0",
+        "2.0.0"
+      ],
+      "nodeIds": [
+        "n3",
+        "n5"
+      ]
+    }
+  ],
+  "outcome": {
+    "level": "partial",
+    "reasons": [
+      "可选资料缺失或被平台过滤",
+      "存在未满足的 peer 约束"
+    ],
+    "rank": 2
+  },
+  "drift": {
+    "verifiedAt": "2026-11-14T15:09:55.511Z",
+    "changedCount": 1,
+    "details": [
+      {
+        "name": "app",
+        "status": "changed",
+        "storedSha256": "sha256-eR7iS1RY5Ovn6uldfidOjVKa7JG1xBf3EfmZFsJo4Kk=",
+        "currentSha256": "sha256-nynfSecI8qyJ2l4Y+9JPXUeFh5b3vaZgFGE8peDCscs=",
+        "storedRev": "latest=1.0.0",
+        "currentRev": "latest=2.0.0"
+      },
+      {
+        "name": "helper",
+        "status": "unchanged",
+        "storedSha256": "sha256-7orScmFitDxD7Hizjz0dhmQMX+YjvijoDwMwCP1cvCw=",
+        "currentSha256": "sha256-7orScmFitDxD7Hizjz0dhmQMX+YjvijoDwMwCP1cvCw=",
+        "storedRev": "latest=2.0.0",
+        "currentRev": "latest=2.0.0"
+      },
+      {
+        "name": "libx",
+        "status": "unchanged",
+        "storedSha256": "sha256-iU5WCAr2tjPt6d5BHy6wn7DYN7MhFbFXOXPd8rOmsaY=",
+        "currentSha256": "sha256-iU5WCAr2tjPt6d5BHy6wn7DYN7MhFbFXOXPd8rOmsaY=",
+        "storedRev": "latest=2.0.0",
+        "currentRev": "latest=2.0.0"
+      },
+      {
+        "name": "win-tool",
+        "status": "unchanged",
+        "storedSha256": "sha256-VvYWiL1Z6g2ufflIRPi7s8kWpaSRosybEekJOv4j3lQ=",
+        "currentSha256": "sha256-VvYWiL1Z6g2ufflIRPi7s8kWpaSRosybEekJOv4j3lQ=",
+        "storedRev": "latest=1.0.0",
+        "currentRev": "latest=1.0.0"
+      },
+      {
+        "name": "host",
+        "status": "unchanged",
+        "storedSha256": "sha256-xwgb2Xqvfhl4Wpf345wLWh1lOFDWGp99utTsUD1c69I=",
+        "currentSha256": "sha256-xwgb2Xqvfhl4Wpf345wLWh1lOFDWGp99utTsUD1c69I=",
+        "storedRev": "latest=3.0.0",
+        "currentRev": "latest=3.0.0"
+      },
+      {
+        "name": "gadget",
+        "status": "unchanged",
+        "storedSha256": "sha256-7LX+3z6x/7Rs9kG5AhafvXIXMG+0tJsCgaBYzr+wY6E=",
+        "currentSha256": "sha256-7LX+3z6x/7Rs9kG5AhafvXIXMG+0tJsCgaBYzr+wY6E=",
+        "storedRev": "latest=1.0.0",
+        "currentRev": "latest=1.0.0"
+      }
+    ]
+  }
+}

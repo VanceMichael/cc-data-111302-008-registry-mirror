@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-14T15:09:55.539Z",
+  "startedAt": "2026-11-14T15:09:55.527Z",
+  "request": {
+    "name": "app",
+    "range": "1.0.0",
+    "platform": {
+      "os": "linux",
+      "cpu": "x64"
+    },
+    "registries": [
+      "http://127.0.0.1:42029"
+    ]
+  },
+  "root": {
+    "name": "app",
+    "range": "1.0.0",
+    "resolvedVersion": "1.0.0",
+    "viaTag": null,
+    "nodeId": "__root__"
+  },
+  "counts": {
+    "nodes": 10,
+    "edges": 14,
+    "distinctBlobs": 5,
+    "byStatus": {
+      "withdrawn": 2,
+      "archive-corrupt": 1,
+      "available": 4,
+      "optional-platform-excluded": 1,
+      "optional-missing": 1,
+      "peer-unmet": 1
+    },
+    "conflicts": 1,
+    "peerUnsatisfied": 1
+  },
+  "conflicts": [
+    {
+      "name": "libx",
+      "versions": [
+        "1.0.0",
+        "2.0.0"
+      ],
+      "nodeIds": [
+        "n3",
+        "n5"
+      ]
+    }
+  ],
+  "outcome": {
+    "level": "degraded",
+    "reasons": [
+      "存在归档损坏或无法领取",
+      "包含被撤回版本"
+    ],
+    "rank": 1
+  },
+  "drift": null
+}
